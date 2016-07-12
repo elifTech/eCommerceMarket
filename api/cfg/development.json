@@ -1,0 +1,24 @@
+{
+  "mongodb": "mongodb://localhost:27017/market?auto_reconnect=true",
+  "http": {
+    "port": 3000
+  },
+  "log": {
+    "stdout": {
+      "level": "debug",
+      "enabled": true
+    },
+    "syslog": {
+      "enabled": false
+    },
+    "file": {
+      "level": "info",
+      "path": "market.log",
+      "enabled": true
+    },
+    "mongodb": {
+      "level": "info",
+      "enabled": true
+    }
+  }
+}
